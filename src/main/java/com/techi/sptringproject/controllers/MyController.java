@@ -16,4 +16,8 @@ public class MyController {
 	public String m2() {
 		return "Hello2";
 	}
-}
+	@GetMapping("/string/3")
+	public String m3() {
+		return "Hello3";
+	}
+} 
