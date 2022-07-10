@@ -18,6 +18,6 @@ public class MyController {
 	}
 	@GetMapping("/string/3")
 	public String m3() {
-		return "Hello3";
+		return "Hello3"; 
 	}
 } 
