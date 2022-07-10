@@ -8,6 +8,7 @@ class SptringprojectApplicationTests {
 
 	@Test
 	void contextLoads() {
+	System.out.println("context loads");
 	}
 
 }
