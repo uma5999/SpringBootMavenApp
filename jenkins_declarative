@@ -1,0 +1,26 @@
+pipeline{
+agent any
+stages{
+stage("my-code-checkout"){
+steps{
+git branch:'jlc_master',
+url:'https://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@github.com/uma5999/SpringBootMavenApp.git'
+echo "check out is done!!!!!!!!!"
+}
+}
+stage("my-code-clean"){
+steps{
+sh 'mvn clean'
+echo "maven package is done!!!!!!!!!"
+}
+}
+stage("my-code-packaging"){
+steps{
+sh 'mvn package'
+echo "maven package is done!!!!!!!!!"
+}
+}
+
+
+}
+}
