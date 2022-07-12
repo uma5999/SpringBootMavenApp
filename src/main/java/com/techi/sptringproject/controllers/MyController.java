@@ -10,6 +10,7 @@ public class MyController {
 
 	@GetMapping("/string/1")
 	public String m1() {
+		System.out.println("1st update");
 		return "Hello1";
 	}
 	@GetMapping("/string/2")
