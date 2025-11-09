@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/tech")
 public class MyController {
-
+System.out.println("I AM MyController");
 	@GetMapping("/string/1")
 	public String m1() {
 		System.out.println("1st update");
